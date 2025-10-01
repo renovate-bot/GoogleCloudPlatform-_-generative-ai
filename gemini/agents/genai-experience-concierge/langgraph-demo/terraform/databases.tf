@@ -20,7 +20,7 @@ resource "random_password" "alloy_db_password" {
 # Create an AlloyDB cluster and instance for session management.
 module "alloy-db" {
   source  = "GoogleCloudPlatform/alloy-db/google"
-  version = "~> 3.2.0"
+  version = "~> 3.3.0"
 
   cluster_id           = local.alloy_db_cluster_id
   cluster_location     = var.region
@@ -53,7 +53,7 @@ module "alloy-db" {
 # Add the postgres connection string for the AlloyDB instance as a secret to be used by the backend server.
 module "secret-manager" {
   source     = "GoogleCloudPlatform/secret-manager/google"
-  version    = "~> 0.8"
+  version    = "~> 0.9"
   project_id = module.project-factory.project_id
   secrets = [
     {
