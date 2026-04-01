@@ -1,4 +1,4 @@
-cloudevents == 1.11.0
+cloudevents ==2.0.0
 functions-framework == 3.8.2
 google-events == 0.14.0
 google-api-core == 2.24.1
