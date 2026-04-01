@@ -1,4 +1,4 @@
 mesop
-gunicorn==23.0.0
+gunicorn==25.3.0
 dataclasses_json
 google-genai
