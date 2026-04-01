@@ -1,6 +1,6 @@
 beautifulsoup4==4.13.3
 fastapi[standard]==0.115.12
-google-genai==0.8.0
+google-genai==1.69.0
 httpx==0.28.1
 itsdangerous==2.2.0
 praw==7.8.1
