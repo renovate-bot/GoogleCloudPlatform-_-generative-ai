@@ -31,7 +31,7 @@
     "@mui/material-nextjs": "^6.1.0",
     "@opentelemetry/sdk-trace-base": "^1.26.0",
     "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.0.0",
     "express": "^4.21.2",
     "firebase": "^11.0.0",
     "firebase-admin": "^12.4.0",
