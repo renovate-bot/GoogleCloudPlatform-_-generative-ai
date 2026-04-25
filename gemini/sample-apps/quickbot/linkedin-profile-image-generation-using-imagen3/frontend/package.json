@@ -63,7 +63,7 @@
     "@types/marked": "^4.3.0",
     "@types/node": "20.12.7",
     "@types/uuid": "^9.0.4",
-    "firebase-tools": "^11.30.0",
+    "firebase-tools": "^13.0.0",
     "gts": "^5.3.1",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
